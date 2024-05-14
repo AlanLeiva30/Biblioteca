@@ -1,0 +1,54 @@
+C:\Users\Administrador\source\repos\BibliotecaFrom\BibliotecaFrom\bin\Debug\BibliotecaFrom.exe.config
+C:\Users\Administrador\source\repos\BibliotecaFrom\BibliotecaFrom\bin\Debug\BibliotecaFrom.exe
+C:\Users\Administrador\source\repos\BibliotecaFrom\BibliotecaFrom\bin\Debug\BibliotecaFrom.pdb
+C:\Users\Administrador\source\repos\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.csprojAssemblyReference.cache
+C:\Users\Administrador\source\repos\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrMenu.resources
+C:\Users\Administrador\source\repos\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.Properties.Resources.resources
+C:\Users\Administrador\source\repos\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.csproj.GenerateResource.cache
+C:\Users\Administrador\source\repos\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\source\repos\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.exe
+C:\Users\Administrador\source\repos\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.pdb
+C:\Users\Administrador\source\repos\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmUsuario.resources
+C:\Users\Administrador\source\repos\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmLibros.resources
+C:\Users\Administrador\source\repos\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmPrestar.resources
+C:\Users\Administrador\source\repos\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmRegistrarse.resources
+C:\Users\Administrador\source\repos\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmAdministrador.resources
+C:\Users\Administrador\source\repos\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmAdministrarBiblioteca.resources
+C:\Users\Administrador\source\repos\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmAgregarLibro.resources
+C:\Users\Administrador\source\repos\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmVerprestamos.resources
+G:\JAEM\ESTUDIOS\UTEC\PRN I\17 S PRN\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.csproj.AssemblyReference.cache
+G:\JAEM\ESTUDIOS\UTEC\PRN I\17 S PRN\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.csproj.SuggestedBindingRedirects.cache
+G:\JAEM\ESTUDIOS\UTEC\PRN I\17 S PRN\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmAdministrador.resources
+G:\JAEM\ESTUDIOS\UTEC\PRN I\17 S PRN\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmAdministrarBiblioteca.resources
+G:\JAEM\ESTUDIOS\UTEC\PRN I\17 S PRN\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmAgregarLibro.resources
+G:\JAEM\ESTUDIOS\UTEC\PRN I\17 S PRN\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmLibros.resources
+G:\JAEM\ESTUDIOS\UTEC\PRN I\17 S PRN\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmPrestar.resources
+G:\JAEM\ESTUDIOS\UTEC\PRN I\17 S PRN\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmRegistrarse.resources
+G:\JAEM\ESTUDIOS\UTEC\PRN I\17 S PRN\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmUsuario.resources
+G:\JAEM\ESTUDIOS\UTEC\PRN I\17 S PRN\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmVerprestamos.resources
+G:\JAEM\ESTUDIOS\UTEC\PRN I\17 S PRN\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.Properties.Resources.resources
+G:\JAEM\ESTUDIOS\UTEC\PRN I\17 S PRN\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.csproj.GenerateResource.cache
+G:\JAEM\ESTUDIOS\UTEC\PRN I\17 S PRN\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.csproj.CoreCompileInputs.cache
+G:\JAEM\ESTUDIOS\UTEC\PRN I\17 S PRN\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.exe
+G:\JAEM\ESTUDIOS\UTEC\PRN I\17 S PRN\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.pdb
+G:\JAEM\ESTUDIOS\UTEC\PRN I\17 S PRN\BibliotecaFrom\BibliotecaFrom\bin\Debug\BibliotecaFrom.exe.config
+G:\JAEM\ESTUDIOS\UTEC\PRN I\17 S PRN\BibliotecaFrom\BibliotecaFrom\bin\Debug\BibliotecaFrom.exe
+G:\JAEM\ESTUDIOS\UTEC\PRN I\17 S PRN\BibliotecaFrom\BibliotecaFrom\bin\Debug\BibliotecaFrom.pdb
+D:\Users\Alan Leiva\Escritorio\BibliotecaFrom\BibliotecaFrom\bin\Debug\BibliotecaFrom.exe.config
+D:\Users\Alan Leiva\Escritorio\BibliotecaFrom\BibliotecaFrom\bin\Debug\BibliotecaFrom.exe
+D:\Users\Alan Leiva\Escritorio\BibliotecaFrom\BibliotecaFrom\bin\Debug\BibliotecaFrom.pdb
+D:\Users\Alan Leiva\Escritorio\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.csproj.AssemblyReference.cache
+D:\Users\Alan Leiva\Escritorio\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmAdministrador.resources
+D:\Users\Alan Leiva\Escritorio\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmAdministrarBiblioteca.resources
+D:\Users\Alan Leiva\Escritorio\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmAgregarLibro.resources
+D:\Users\Alan Leiva\Escritorio\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmLibros.resources
+D:\Users\Alan Leiva\Escritorio\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmMenuPrincipal.resources
+D:\Users\Alan Leiva\Escritorio\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmPrestar.resources
+D:\Users\Alan Leiva\Escritorio\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmRegistrarse.resources
+D:\Users\Alan Leiva\Escritorio\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmUsuario.resources
+D:\Users\Alan Leiva\Escritorio\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmVerprestamos.resources
+D:\Users\Alan Leiva\Escritorio\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.Properties.Resources.resources
+D:\Users\Alan Leiva\Escritorio\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.csproj.GenerateResource.cache
+D:\Users\Alan Leiva\Escritorio\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.csproj.CoreCompileInputs.cache
+D:\Users\Alan Leiva\Escritorio\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.exe
+D:\Users\Alan Leiva\Escritorio\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.pdb
