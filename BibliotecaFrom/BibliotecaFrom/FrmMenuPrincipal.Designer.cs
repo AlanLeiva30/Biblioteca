@@ -31,22 +31,23 @@
             this.btnUsuario = new System.Windows.Forms.Button();
             this.btnAdministrador = new System.Windows.Forms.Button();
             this.btnLibros = new System.Windows.Forms.Button();
-            this.lblInicio = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.pnlFondo = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pnlContenedorPrincipal = new System.Windows.Forms.Panel();
+            this.pnlFondo.SuspendLayout();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnUsuario
             // 
             this.btnUsuario.BackColor = System.Drawing.Color.DodgerBlue;
-            this.btnUsuario.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUsuario.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnUsuario.Location = new System.Drawing.Point(72, 413);
+            this.btnUsuario.Location = new System.Drawing.Point(0, 127);
             this.btnUsuario.Name = "btnUsuario";
-            this.btnUsuario.Size = new System.Drawing.Size(149, 67);
+            this.btnUsuario.Size = new System.Drawing.Size(301, 67);
             this.btnUsuario.TabIndex = 0;
             this.btnUsuario.Text = "Usuario";
             this.btnUsuario.UseVisualStyleBackColor = false;
@@ -55,11 +56,11 @@
             // btnAdministrador
             // 
             this.btnAdministrador.BackColor = System.Drawing.Color.DodgerBlue;
-            this.btnAdministrador.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdministrador.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdministrador.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnAdministrador.Location = new System.Drawing.Point(391, 412);
+            this.btnAdministrador.Location = new System.Drawing.Point(0, 273);
             this.btnAdministrador.Name = "btnAdministrador";
-            this.btnAdministrador.Size = new System.Drawing.Size(149, 68);
+            this.btnAdministrador.Size = new System.Drawing.Size(301, 68);
             this.btnAdministrador.TabIndex = 1;
             this.btnAdministrador.Text = "Administrador";
             this.btnAdministrador.UseVisualStyleBackColor = false;
@@ -68,42 +69,42 @@
             // btnLibros
             // 
             this.btnLibros.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnLibros.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLibros.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLibros.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnLibros.Location = new System.Drawing.Point(236, 412);
+            this.btnLibros.Location = new System.Drawing.Point(0, 200);
             this.btnLibros.Name = "btnLibros";
-            this.btnLibros.Size = new System.Drawing.Size(149, 67);
+            this.btnLibros.Size = new System.Drawing.Size(301, 67);
             this.btnLibros.TabIndex = 2;
             this.btnLibros.Text = "Libros";
             this.btnLibros.UseVisualStyleBackColor = false;
             this.btnLibros.Click += new System.EventHandler(this.btnLibros_Click);
             // 
-            // lblInicio
+            // pnlFondo
             // 
-            this.lblInicio.AutoSize = true;
-            this.lblInicio.BackColor = System.Drawing.Color.Blue;
-            this.lblInicio.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblInicio.Location = new System.Drawing.Point(270, 344);
-            this.lblInicio.Name = "lblInicio";
-            this.lblInicio.Size = new System.Drawing.Size(60, 18);
-            this.lblInicio.TabIndex = 3;
-            this.lblInicio.Text = "INICIO";
+            this.pnlFondo.Controls.Add(this.panel1);
+            this.pnlFondo.Controls.Add(this.pnlContenedorPrincipal);
+            this.pnlFondo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlFondo.Location = new System.Drawing.Point(0, 0);
+            this.pnlFondo.Name = "pnlFondo";
+            this.pnlFondo.Size = new System.Drawing.Size(1264, 681);
+            this.pnlFondo.TabIndex = 8;
             // 
-            // label1
+            // panel1
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(171, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(252, 33);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "BIENVENDOS A  ";
+            this.panel1.Controls.Add(this.pictureBox2);
+            this.panel1.Controls.Add(this.btnUsuario);
+            this.panel1.Controls.Add(this.btnAdministrador);
+            this.panel1.Controls.Add(this.btnLibros);
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(301, 681);
+            this.panel1.TabIndex = 1;
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::BibliotecaFrom.Properties.Resources.salir;
-            this.pictureBox2.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox2.Location = new System.Drawing.Point(248, 619);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(50, 59);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -111,35 +112,28 @@
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
-            // pictureBox1
+            // pnlContenedorPrincipal
             // 
-            this.pictureBox1.Image = global::BibliotecaFrom.Properties.Resources.biblioteca_nacional_de_el_salvador_logo_Sin_Sobra;
-            this.pictureBox1.Location = new System.Drawing.Point(144, 64);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(315, 277);
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
+            this.pnlContenedorPrincipal.Location = new System.Drawing.Point(301, 0);
+            this.pnlContenedorPrincipal.Margin = new System.Windows.Forms.Padding(0);
+            this.pnlContenedorPrincipal.Name = "pnlContenedorPrincipal";
+            this.pnlContenedorPrincipal.Size = new System.Drawing.Size(963, 681);
+            this.pnlContenedorPrincipal.TabIndex = 0;
             // 
             // FrmMenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Aqua;
-            this.ClientSize = new System.Drawing.Size(591, 548);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.lblInicio);
-            this.Controls.Add(this.btnLibros);
-            this.Controls.Add(this.btnAdministrador);
-            this.Controls.Add(this.btnUsuario);
+            this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.pnlFondo);
             this.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Name = "FrmMenuPrincipal";
             this.Text = "Biblioteca Nacional";
+            this.pnlFondo.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -148,9 +142,9 @@
         private System.Windows.Forms.Button btnUsuario;
         private System.Windows.Forms.Button btnAdministrador;
         private System.Windows.Forms.Button btnLibros;
-        private System.Windows.Forms.Label lblInicio;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Panel pnlFondo;
+        private System.Windows.Forms.Panel panel1;
+        public System.Windows.Forms.Panel pnlContenedorPrincipal;
     }
 }

@@ -183,6 +183,16 @@ namespace BibliotecaFrom.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fondo_login_usuario {
+            get {
+                object obj = ResourceManager.GetObject("fondo-login-usuario", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap libreria {
             get {
                 object obj = ResourceManager.GetObject("libreria", resourceCulture);

@@ -118,56 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="pngtree-book-incense-china-national-reading-publicity-poster-background-material-image_154003" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pngtree-book-incense-china-national-reading-publicity-poster-background-material-image_154003.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="prestamos" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\prestamos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pngtree-open-book-poster-background-image_925743" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pngtree-open-book-poster-background-image_925743.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Libros-recomendados" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Libros-recomendados.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="reception-line-filled-backgroud-icon-vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\reception-line-filled-backgroud-icon-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="biblioteca-nacional-de-el-salvador-logo-" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\biblioteca-nacional-de-el-salvador-logo-.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="OIP (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\OIP (3).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="registrarse" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\registrarse.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="biblioteca-nacional-de-el-salvador-logo-Sobra" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\biblioteca-nacional-de-el-salvador-logo-Sobra.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pngtree-cartoon-dream-reading-life-change-poster-background-material-image_151816" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pngtree-cartoon-dream-reading-life-change-poster-background-material-image_151816.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="R (6)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\R (6).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="regis" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\regis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Admin 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Admin 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="salir" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\salir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pngtree-2-5d-simple-stereoscopic-financial-image_17488" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pngtree-2-5d-simple-stereoscopic-financial-image_17488.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="usuario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\usuario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Candado" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Candado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="OIP (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\OIP (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="beautiful-arrangement-different-books_23-2148883798" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\beautiful-arrangement-different-books_23-2148883798.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="dddd" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dddd.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,28 +133,73 @@
   <data name="605a40c103d35_img-portada_20210323_13_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\605a40c103d35_img-portada_20210323_13_25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Admin" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Admin.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="prestamos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prestamos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="beautiful-arrangement-different-books_23-2148883798" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\beautiful-arrangement-different-books_23-2148883798.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Candado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Candado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="agregar libros" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\agregar libros.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pngtree-open-book-poster-background-image_925743" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-open-book-poster-background-image_925743.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="biblioteca-nacional-de-el-salvador-logo-" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\biblioteca-nacional-de-el-salvador-logo-.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="1BNS" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1BNS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="biblioteca-nacional-de-el-salvador-logo-Sin-Sobra" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\biblioteca-nacional-de-el-salvador-logo-Sin-Sobra.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="agregar libros" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\agregar libros.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="usuario" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\usuario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="registrarse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\registrarse.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="admin_person_user_man_2839" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\admin_person_user_man_2839.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="pngtree-cartoon-dream-reading-life-change-poster-background-material-image_151816" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-cartoon-dream-reading-life-change-poster-background-material-image_151816.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="biblioteca-nacional-de-el-salvador-logo-Sin-Sobra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\biblioteca-nacional-de-el-salvador-logo-Sin-Sobra.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OIP (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OIP (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-book-incense-china-national-reading-publicity-poster-background-material-image_154003" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-book-incense-china-national-reading-publicity-poster-background-material-image_154003.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Admin 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Admin 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reception-line-filled-backgroud-icon-vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\reception-line-filled-backgroud-icon-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Admin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Admin.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="biblioteca-nacional-de-el-salvador-logo-Sobra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\biblioteca-nacional-de-el-salvador-logo-Sobra.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Libros-recomendados" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Libros-recomendados.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R (6)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R (6).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="libreria" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\libreria.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OIP (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OIP (3).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-2-5d-simple-stereoscopic-financial-image_17488" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-2-5d-simple-stereoscopic-financial-image_17488.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="regis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\regis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo-login-usuario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo-login-usuario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -13,19 +13,31 @@ namespace BibliotecaFrom
     // Definición de la clase FrmMenuPrincipal que hereda de la clase Form
     public partial class FrmMenuPrincipal : Form
     {
-        
+
         // Método constructor, se llama cuando se crea una nueva instancia de la clase
         public FrmMenuPrincipal()
         {
             // Llama a InitializeComponent(), un método que inicializa el formulario y todos sus controles
             InitializeComponent();
+            // Coloca el fondo por defecto
+            FrmInicio fondo = new FrmInicio();
+            fondo.TopLevel = false;
+            pnlContenedorPrincipal.Controls.Add(fondo);
+            fondo.Show();
         }
 
         // Método que se ejecuta cuando se hace clic en el botón btnUsuario
         private void btnUsuario_Click(object sender, EventArgs e)
         {
             // Crea una nueva instancia de la clase FrmUsuario
-            FrmUsuario usuario = new FrmUsuario();
+            // Se agrega una instancia del formulario actual para que pueda 
+            // manipular el contenedor
+            FrmUsuario usuario = new FrmUsuario(this);
+            usuario.TopLevel = false;
+            // Limpia el contenedor
+            pnlContenedorPrincipal.Controls.Clear();
+            // Agrega el nuevo formulario
+            pnlContenedorPrincipal.Controls.Add(usuario);
             // Muestra el formulario usuario
             usuario.Show();
         }
@@ -35,6 +47,12 @@ namespace BibliotecaFrom
         {
             // Crea una nueva instancia de la clase FrmLibros con el parámetro 0
             FrmLibros libros = new FrmLibros(0);
+            // Cambie el tipo de formulario para que se abra dentro del contenedor
+            libros.TopLevel = false;
+            // Limpia el contenedor
+            pnlContenedorPrincipal.Controls.Clear();
+            // Agrega el nuevo formulario
+            pnlContenedorPrincipal.Controls.Add(libros);
             // Muestra el formulario libros
             libros.Show();
         }
@@ -44,6 +62,12 @@ namespace BibliotecaFrom
         {
             // Crea una nueva instancia de la clase FrmAdministrador
             FrmAdministrador Administrador = new FrmAdministrador();
+            // Tipo de formulario para abrir dentro de conteneodr
+            Administrador.TopLevel = false;
+            // Limpia el contenedor
+            pnlContenedorPrincipal.Controls.Clear();
+            // Agrega el formulario al contenedor
+            pnlContenedorPrincipal.Controls.Add(Administrador);
             // Muestra el formulario Administrador
             Administrador.Show();
         }
@@ -53,6 +77,21 @@ namespace BibliotecaFrom
         {
             // Cierra el formulario actual
             Close();
+        }
+
+        // Función para abrir el formulario de libros
+        public void abrirFormularioLibros(int resultado)
+        {
+            
+            FrmLibros libros = new FrmLibros(resultado);
+
+            libros.TopLevel = false;
+            pnlContenedorPrincipal.Controls.Clear(); // Asegúrate de que esto se ejecute
+            pnlContenedorPrincipal.Controls.Add(libros);
+            libros.Show();
+
+            libros.Focus(); // Establece el foco en el nuevo formulario
+            pnlContenedorPrincipal.Refresh(); // Fuerza la actualización del panel
         }
     }
 }

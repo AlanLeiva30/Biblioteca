@@ -49,7 +49,7 @@ namespace BibliotecaFrom
         {
             using (SqlConnection conexion = new SqlConnection(cadenaConexion))
             {
-                EjecutarProcedimientoAlmacenado(conexion, "MostrarLibros", dgvMostrar);
+                //EjecutarProcedimientoAlmacenado(conexion, "MostrarLibros", dgvMostrar);
             }
         }
 
