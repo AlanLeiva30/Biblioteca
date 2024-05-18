@@ -13,9 +13,11 @@ namespace BibliotecaFrom
 {
     public partial class FrmAdministrador : Form
     {
-        public FrmAdministrador()
+        private readonly FrmMenuPrincipal _formularioPrincipal;
+        public FrmAdministrador(FrmMenuPrincipal formularioPrincipal)
         {
             InitializeComponent();
+            _formularioPrincipal = formularioPrincipal;
         }
 
         private void btnIngresar_Click(object sender, EventArgs e)
@@ -24,6 +26,8 @@ namespace BibliotecaFrom
             string usuario = txtUsuario.Text;
             string contraseña = txtContraseña.Text;
 
+            _formularioPrincipal.abrirAdministrarBiblioteca();
+            return;
             // Usa la cadena de conexión desde la clase Configuracion
             string cadenaConexion = Configuracion.CadenaConexion;
             // Consulta SQL
@@ -46,9 +50,7 @@ namespace BibliotecaFrom
                         // Usuario autenticado como administrador
                         // Realiza las acciones correspondientes para dar acceso al usuario administrador
                         // Ejemplo: Mostrar formulario de administración, etc.
-                        FrmAdministrarBiblioteca adm = new FrmAdministrarBiblioteca();
-                        adm.Show();
-                        Close();
+                        _formularioPrincipal.abrirAdministrarBiblioteca();
                     }
                     else
                     {
@@ -72,15 +74,13 @@ namespace BibliotecaFrom
 
         private void btnAtras_Click(object sender, EventArgs e)
         {
-            // Cierra el formulario actual
-            this.Close();
+            _formularioPrincipal.volverInicio();
         }
 
         private void btnRegistrarse_Click(object sender, EventArgs e)
         {
             // Mostrar formulario de registro
-            FrmRegistrarse registrar = new FrmRegistrarse();
-            registrar.Show();
+            _formularioPrincipal.abrirRegistro();
         }
     }
 }

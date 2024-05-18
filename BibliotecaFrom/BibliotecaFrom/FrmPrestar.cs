@@ -17,12 +17,14 @@ namespace BibliotecaFrom
         // Usa la cadena de conexión desde la clase Configuracion
         string cadenaConexion = Configuracion.CadenaConexion;
 
-        public FrmPrestar(int idUsuario, int idLibro)
+        private readonly FrmMenuPrincipal _formularioPrincipal;
+        public FrmPrestar(int idUsuario, int idLibro, FrmMenuPrincipal formularioPrincipal)
         {
             InitializeComponent();
             id_usuario = idUsuario;
             id_libro = idLibro;
             InicializarTextos();
+            _formularioPrincipal = formularioPrincipal;
         }
 
         private void InicializarTextos()
@@ -92,12 +94,12 @@ namespace BibliotecaFrom
                             $"Fecha de préstamo: {fechaPrestamo}\n" +
                             $"Fecha de devolución: {fechaDevolucion}";
             MessageBox.Show(ticket, "Ticket de Préstamo");
-            this.Close();
+            _formularioPrincipal.volverInicio();
         }
 
         private void btnAtras_Click(object sender, EventArgs e)
         {
-            Close();
+            _formularioPrincipal.volverInicio();
         }
 
         private void GuardarPrestamo(int idUsuario, int idLibro, DateTime fechaPrestamo, DateTime fechaDevolucion)

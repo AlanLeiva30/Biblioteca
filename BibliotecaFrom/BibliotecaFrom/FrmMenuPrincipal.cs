@@ -46,7 +46,7 @@ namespace BibliotecaFrom
         private void btnLibros_Click(object sender, EventArgs e)
         {
             // Crea una nueva instancia de la clase FrmLibros con el parámetro 0
-            FrmLibros libros = new FrmLibros(0);
+            FrmLibros libros = new FrmLibros(0, this);
             // Cambie el tipo de formulario para que se abra dentro del contenedor
             libros.TopLevel = false;
             // Limpia el contenedor
@@ -61,7 +61,7 @@ namespace BibliotecaFrom
         private void btnAdministrador_Click(object sender, EventArgs e)
         {
             // Crea una nueva instancia de la clase FrmAdministrador
-            FrmAdministrador Administrador = new FrmAdministrador();
+            FrmAdministrador Administrador = new FrmAdministrador(this);
             // Tipo de formulario para abrir dentro de conteneodr
             Administrador.TopLevel = false;
             // Limpia el contenedor
@@ -79,11 +79,22 @@ namespace BibliotecaFrom
             Close();
         }
 
+        // ´Función para limpiar el panel principal (Regresar al menú principal)
+        public void volverInicio()
+        {
+            // Coloca el fondo por defecto
+            FrmInicio fondo = new FrmInicio();
+            fondo.TopLevel = false;
+            pnlContenedorPrincipal.Controls.Clear();
+            pnlContenedorPrincipal.Controls.Add(fondo);
+            fondo.Show();
+        }
+
         // Función para abrir el formulario de libros
         public void abrirFormularioLibros(int resultado)
         {
             
-            FrmLibros libros = new FrmLibros(resultado);
+            FrmLibros libros = new FrmLibros(resultado, this);
 
             libros.TopLevel = false;
             pnlContenedorPrincipal.Controls.Clear(); // Asegúrate de que esto se ejecute
@@ -92,6 +103,54 @@ namespace BibliotecaFrom
 
             libros.Focus(); // Establece el foco en el nuevo formulario
             pnlContenedorPrincipal.Refresh(); // Fuerza la actualización del panel
+        }
+
+        // Función para abrir el formulario de administrar biblioteca
+        public void abrirAdministrarBiblioteca()
+        {
+            FrmAdministrarBiblioteca biblioteca = new FrmAdministrarBiblioteca(this);
+
+            biblioteca.TopLevel = false;
+
+            pnlContenedorPrincipal.Controls.Clear();
+            pnlContenedorPrincipal.Controls.Add(biblioteca);
+
+            biblioteca.Show();
+        }
+
+        public void abrirRegistro()
+        {
+            // Mostrar formulario de registro
+            FrmRegistrarse registrar = new FrmRegistrarse(this);
+            registrar.TopLevel = false;
+
+            pnlContenedorPrincipal.Controls.Clear();
+            pnlContenedorPrincipal.Controls.Add(registrar);
+            registrar.Show();
+        }
+
+        public void abrirVerPrestamo(int idUser)
+        {
+            FrmVerprestamos prestamos = new FrmVerprestamos(idUser, this);
+            prestamos.TopLevel = false;
+
+            pnlContenedorPrincipal.Controls.Clear();
+
+            pnlContenedorPrincipal.Controls.Add(prestamos);
+
+            prestamos.Show();
+        }
+
+        public void abrirPrestamo(int idUsuario, int idLibro)
+        {
+            FrmPrestar prestar = new FrmPrestar(idUsuario, idLibro, this);
+            prestar.TopLevel = false;
+
+            pnlContenedorPrincipal.Controls.Clear();
+
+            pnlContenedorPrincipal.Controls.Add(prestar);
+
+            prestar.Show();
         }
     }
 }

@@ -1,36 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\firearcher17\\Documents\\Biblioteca\\BibliotecaFrom\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{5ED0D642-C97C-4DF2-B2B6-2F1830B6F6A4}|BibliotecaFrom\\BibliotecaFrom.csproj|c:\\users\\firearcher17\\documents\\biblioteca\\bibliotecafrom\\bibliotecafrom\\frmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5ED0D642-C97C-4DF2-B2B6-2F1830B6F6A4}|BibliotecaFrom\\BibliotecaFrom.csproj|solutionrelative:bibliotecafrom\\frmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ED0D642-C97C-4DF2-B2B6-2F1830B6F6A4}|BibliotecaFrom\\BibliotecaFrom.csproj|c:\\users\\firearcher17\\documents\\biblioteca\\bibliotecafrom\\bibliotecafrom\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5ED0D642-C97C-4DF2-B2B6-2F1830B6F6A4}|BibliotecaFrom\\BibliotecaFrom.csproj|solutionrelative:bibliotecafrom\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ED0D642-C97C-4DF2-B2B6-2F1830B6F6A4}|BibliotecaFrom\\BibliotecaFrom.csproj|c:\\users\\firearcher17\\documents\\biblioteca\\bibliotecafrom\\bibliotecafrom\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5ED0D642-C97C-4DF2-B2B6-2F1830B6F6A4}|BibliotecaFrom\\BibliotecaFrom.csproj|solutionrelative:bibliotecafrom\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ED0D642-C97C-4DF2-B2B6-2F1830B6F6A4}|BibliotecaFrom\\BibliotecaFrom.csproj|c:\\users\\firearcher17\\documents\\biblioteca\\bibliotecafrom\\bibliotecafrom\\frmlibros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5ED0D642-C97C-4DF2-B2B6-2F1830B6F6A4}|BibliotecaFrom\\BibliotecaFrom.csproj|solutionrelative:bibliotecafrom\\frmlibros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ED0D642-C97C-4DF2-B2B6-2F1830B6F6A4}|BibliotecaFrom\\BibliotecaFrom.csproj|c:\\users\\firearcher17\\documents\\biblioteca\\bibliotecafrom\\bibliotecafrom\\frmlibros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5ED0D642-C97C-4DF2-B2B6-2F1830B6F6A4}|BibliotecaFrom\\BibliotecaFrom.csproj|solutionrelative:bibliotecafrom\\frmlibros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ED0D642-C97C-4DF2-B2B6-2F1830B6F6A4}|BibliotecaFrom\\BibliotecaFrom.csproj|c:\\users\\firearcher17\\documents\\biblioteca\\bibliotecafrom\\bibliotecafrom\\frmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5ED0D642-C97C-4DF2-B2B6-2F1830B6F6A4}|BibliotecaFrom\\BibliotecaFrom.csproj|solutionrelative:bibliotecafrom\\frmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ED0D642-C97C-4DF2-B2B6-2F1830B6F6A4}|BibliotecaFrom\\BibliotecaFrom.csproj|c:\\users\\firearcher17\\documents\\biblioteca\\bibliotecafrom\\bibliotecafrom\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5ED0D642-C97C-4DF2-B2B6-2F1830B6F6A4}|BibliotecaFrom\\BibliotecaFrom.csproj|solutionrelative:bibliotecafrom\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -38,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -47,93 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FrmLibros.cs",
-              "DocumentMoniker": "C:\\Users\\firearcher17\\Documents\\Biblioteca\\BibliotecaFrom\\BibliotecaFrom\\FrmLibros.cs",
-              "RelativeDocumentMoniker": "BibliotecaFrom\\FrmLibros.cs",
-              "ToolTip": "C:\\Users\\firearcher17\\Documents\\Biblioteca\\BibliotecaFrom\\BibliotecaFrom\\FrmLibros.cs",
-              "RelativeToolTip": "BibliotecaFrom\\FrmLibros.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAowDIAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T03:07:43.602Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FrmLibros.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\firearcher17\\Documents\\Biblioteca\\BibliotecaFrom\\BibliotecaFrom\\FrmLibros.cs",
-              "RelativeDocumentMoniker": "BibliotecaFrom\\FrmLibros.cs",
-              "ToolTip": "C:\\Users\\firearcher17\\Documents\\Biblioteca\\BibliotecaFrom\\BibliotecaFrom\\FrmLibros.cs [Dise\u00F1o]",
-              "RelativeToolTip": "BibliotecaFrom\\FrmLibros.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T03:07:41.507Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FrmUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\firearcher17\\Documents\\Biblioteca\\BibliotecaFrom\\BibliotecaFrom\\FrmUsuario.cs",
-              "RelativeDocumentMoniker": "BibliotecaFrom\\FrmUsuario.cs",
-              "ToolTip": "C:\\Users\\firearcher17\\Documents\\Biblioteca\\BibliotecaFrom\\BibliotecaFrom\\FrmUsuario.cs",
-              "RelativeToolTip": "BibliotecaFrom\\FrmUsuario.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAIwCMAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T02:50:57.149Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FrmUsuario.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\firearcher17\\Documents\\Biblioteca\\BibliotecaFrom\\BibliotecaFrom\\FrmUsuario.cs",
-              "RelativeDocumentMoniker": "BibliotecaFrom\\FrmUsuario.cs",
-              "ToolTip": "C:\\Users\\firearcher17\\Documents\\Biblioteca\\BibliotecaFrom\\BibliotecaFrom\\FrmUsuario.cs [Dise\u00F1o]",
-              "RelativeToolTip": "BibliotecaFrom\\FrmUsuario.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T02:48:35.759Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmMenuPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\firearcher17\\Documents\\Biblioteca\\BibliotecaFrom\\BibliotecaFrom\\FrmMenuPrincipal.cs",
-              "RelativeDocumentMoniker": "BibliotecaFrom\\FrmMenuPrincipal.cs",
-              "ToolTip": "C:\\Users\\firearcher17\\Documents\\Biblioteca\\BibliotecaFrom\\BibliotecaFrom\\FrmMenuPrincipal.cs",
-              "RelativeToolTip": "BibliotecaFrom\\FrmMenuPrincipal.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAowA4AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T02:47:56.069Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmMenuPrincipal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\firearcher17\\Documents\\Biblioteca\\BibliotecaFrom\\BibliotecaFrom\\FrmMenuPrincipal.cs",
-              "RelativeDocumentMoniker": "BibliotecaFrom\\FrmMenuPrincipal.cs",
-              "ToolTip": "C:\\Users\\firearcher17\\Documents\\Biblioteca\\BibliotecaFrom\\BibliotecaFrom\\FrmMenuPrincipal.cs [Dise\u00F1o]",
-              "RelativeToolTip": "BibliotecaFrom\\FrmMenuPrincipal.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T02:47:51.722Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FrmInicio.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\firearcher17\\Documents\\Biblioteca\\BibliotecaFrom\\BibliotecaFrom\\FrmInicio.cs",
-              "RelativeDocumentMoniker": "BibliotecaFrom\\FrmInicio.cs",
-              "ToolTip": "C:\\Users\\firearcher17\\Documents\\Biblioteca\\BibliotecaFrom\\BibliotecaFrom\\FrmInicio.cs [Dise\u00F1o]",
-              "RelativeToolTip": "BibliotecaFrom\\FrmInicio.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T02:47:47.607Z",
-              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

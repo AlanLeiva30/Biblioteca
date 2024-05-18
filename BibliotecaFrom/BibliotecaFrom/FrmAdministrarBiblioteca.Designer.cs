@@ -47,7 +47,7 @@
             // 
             this.btnAtras.BackColor = System.Drawing.Color.Red;
             this.btnAtras.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnAtras.Location = new System.Drawing.Point(12, 456);
+            this.btnAtras.Location = new System.Drawing.Point(29, 575);
             this.btnAtras.Name = "btnAtras";
             this.btnAtras.Size = new System.Drawing.Size(75, 23);
             this.btnAtras.TabIndex = 16;
@@ -58,9 +58,9 @@
             // btnUsuarios
             // 
             this.btnUsuarios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btnUsuarios.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUsuarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUsuarios.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnUsuarios.Location = new System.Drawing.Point(125, 12);
+            this.btnUsuarios.Location = new System.Drawing.Point(120, 69);
             this.btnUsuarios.Name = "btnUsuarios";
             this.btnUsuarios.Size = new System.Drawing.Size(79, 44);
             this.btnUsuarios.TabIndex = 17;
@@ -71,9 +71,9 @@
             // btnLibros
             // 
             this.btnLibros.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btnLibros.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLibros.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLibros.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnLibros.Location = new System.Drawing.Point(210, 12);
+            this.btnLibros.Location = new System.Drawing.Point(205, 69);
             this.btnLibros.Name = "btnLibros";
             this.btnLibros.Size = new System.Drawing.Size(79, 44);
             this.btnLibros.TabIndex = 19;
@@ -84,9 +84,9 @@
             // btnEliminarU
             // 
             this.btnEliminarU.BackColor = System.Drawing.Color.Red;
-            this.btnEliminarU.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminarU.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminarU.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnEliminarU.Location = new System.Drawing.Point(380, 12);
+            this.btnEliminarU.Location = new System.Drawing.Point(375, 69);
             this.btnEliminarU.Name = "btnEliminarU";
             this.btnEliminarU.Size = new System.Drawing.Size(79, 44);
             this.btnEliminarU.TabIndex = 20;
@@ -102,7 +102,7 @@
             this.dgvMostrar.AllowUserToResizeColumns = false;
             this.dgvMostrar.AllowUserToResizeRows = false;
             this.dgvMostrar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvMostrar.Location = new System.Drawing.Point(40, 110);
+            this.dgvMostrar.Location = new System.Drawing.Point(40, 185);
             this.dgvMostrar.Name = "dgvMostrar";
             this.dgvMostrar.ReadOnly = true;
             this.dgvMostrar.RowHeadersVisible = false;
@@ -113,18 +113,18 @@
             // 
             // txtEliminarPorID
             // 
-            this.txtEliminarPorID.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEliminarPorID.Location = new System.Drawing.Point(792, 18);
+            this.txtEliminarPorID.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEliminarPorID.Location = new System.Drawing.Point(787, 75);
             this.txtEliminarPorID.Name = "txtEliminarPorID";
-            this.txtEliminarPorID.Size = new System.Drawing.Size(62, 32);
+            this.txtEliminarPorID.Size = new System.Drawing.Size(62, 31);
             this.txtEliminarPorID.TabIndex = 26;
             // 
             // btnEliminaeL
             // 
             this.btnEliminaeL.BackColor = System.Drawing.Color.Red;
-            this.btnEliminaeL.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminaeL.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminaeL.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnEliminaeL.Location = new System.Drawing.Point(465, 12);
+            this.btnEliminaeL.Location = new System.Drawing.Point(460, 69);
             this.btnEliminaeL.Name = "btnEliminaeL";
             this.btnEliminaeL.Size = new System.Drawing.Size(79, 44);
             this.btnEliminaeL.TabIndex = 24;
@@ -135,9 +135,9 @@
             // btnPrestamos
             // 
             this.btnPrestamos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btnPrestamos.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPrestamos.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPrestamos.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnPrestamos.Location = new System.Drawing.Point(295, 12);
+            this.btnPrestamos.Location = new System.Drawing.Point(290, 69);
             this.btnPrestamos.Name = "btnPrestamos";
             this.btnPrestamos.Size = new System.Drawing.Size(79, 44);
             this.btnPrestamos.TabIndex = 27;
@@ -148,9 +148,9 @@
             // btnAgregarLibro
             // 
             this.btnAgregarLibro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btnAgregarLibro.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregarLibro.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgregarLibro.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnAgregarLibro.Location = new System.Drawing.Point(40, 12);
+            this.btnAgregarLibro.Location = new System.Drawing.Point(35, 69);
             this.btnAgregarLibro.Name = "btnAgregarLibro";
             this.btnAgregarLibro.Size = new System.Drawing.Size(79, 44);
             this.btnAgregarLibro.TabIndex = 32;
@@ -161,7 +161,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(635, 20);
+            this.label1.Location = new System.Drawing.Point(630, 77);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(150, 26);
             this.label1.TabIndex = 33;
@@ -170,9 +170,9 @@
             // btnEliminarP
             // 
             this.btnEliminarP.BackColor = System.Drawing.Color.Red;
-            this.btnEliminarP.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminarP.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminarP.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnEliminarP.Location = new System.Drawing.Point(550, 12);
+            this.btnEliminarP.Location = new System.Drawing.Point(545, 69);
             this.btnEliminarP.Name = "btnEliminarP";
             this.btnEliminarP.Size = new System.Drawing.Size(79, 44);
             this.btnEliminarP.TabIndex = 34;
@@ -184,7 +184,7 @@
             // 
             this.lbl_TipoTabla.AutoSize = true;
             this.lbl_TipoTabla.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_TipoTabla.Location = new System.Drawing.Point(36, 73);
+            this.lbl_TipoTabla.Location = new System.Drawing.Point(36, 139);
             this.lbl_TipoTabla.Name = "lbl_TipoTabla";
             this.lbl_TipoTabla.Size = new System.Drawing.Size(68, 24);
             this.lbl_TipoTabla.TabIndex = 35;
@@ -194,7 +194,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(936, 497);
+            this.ClientSize = new System.Drawing.Size(947, 642);
             this.Controls.Add(this.lbl_TipoTabla);
             this.Controls.Add(this.btnEliminarP);
             this.Controls.Add(this.label1);
@@ -207,6 +207,7 @@
             this.Controls.Add(this.btnLibros);
             this.Controls.Add(this.btnUsuarios);
             this.Controls.Add(this.btnAtras);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmAdministrarBiblioteca";
             this.Text = "Administrar Biblioteca";
             ((System.ComponentModel.ISupportInitialize)(this.dgvMostrar)).EndInit();

@@ -17,11 +17,13 @@ namespace BibliotecaFrom
         // Usa la cadena de conexión desde la clase Configuracion
         string cadenaConexion = Configuracion.CadenaConexion;
 
-        public FrmLibros(int id)
+        private readonly FrmMenuPrincipal _formularioPrincipal;
+        public FrmLibros(int id, FrmMenuPrincipal principal)
         {
             Inicializar(id);
             ConfigurarElementos();
             CargarDatos();
+            _formularioPrincipal = principal;
         }
 
         private void Inicializar(int id)
@@ -79,8 +81,7 @@ namespace BibliotecaFrom
             if (filaSeleccionada != null && filaSeleccionada.Cells["id_libro"].Value != null)
             {
                 id_libro = Convert.ToInt32(filaSeleccionada.Cells["id_libro"].Value);
-                FrmPrestar prestar = new FrmPrestar(id_usuario, id_libro);
-                prestar.Show();
+                _formularioPrincipal.abrirPrestamo(id_usuario, id_libro);
             }
             else
             {
@@ -90,13 +91,12 @@ namespace BibliotecaFrom
 
         private void btnAtras_Click(object sender, EventArgs e)
         {
-            Close();
+            _formularioPrincipal.volverInicio();
         }
 
         private void btnPrestamos_Click(object sender, EventArgs e)
         {
-            FrmVerprestamos prestamos = new FrmVerprestamos(id_usuario);
-            prestamos.Show();
+            _formularioPrincipal.abrirVerPrestamo(id_usuario);
         }
 
         private void dgvMostrar_CellClick(object sender, DataGridViewCellEventArgs e)

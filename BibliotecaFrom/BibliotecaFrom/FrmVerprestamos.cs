@@ -15,11 +15,13 @@ namespace BibliotecaFrom
     {
         private int id_usuario;
 
-        public FrmVerprestamos(int id_usuario)
+        private readonly FrmMenuPrincipal _formularioPrincipal;
+        public FrmVerprestamos(int id_usuario, FrmMenuPrincipal formularioPrincipal)
         {
             InitializeComponent();
             this.id_usuario = id_usuario;
             CargarDatos();
+            _formularioPrincipal = formularioPrincipal;
         }
 
         private void CargarDatos()
@@ -66,7 +68,7 @@ namespace BibliotecaFrom
 
         private void btnAtras_Click(object sender, EventArgs e)
         {
-            Close();
+            _formularioPrincipal.volverInicio();
         }
 
         private void btn_CancelarPrestamo_Click(object sender, EventArgs e)
