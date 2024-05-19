@@ -46,7 +46,7 @@
             // btnAtras
             // 
             this.btnAtras.BackColor = System.Drawing.Color.Red;
-            this.btnAtras.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnAtras.ForeColor = System.Drawing.Color.Black;
             this.btnAtras.Location = new System.Drawing.Point(29, 575);
             this.btnAtras.Name = "btnAtras";
             this.btnAtras.Size = new System.Drawing.Size(75, 23);
@@ -59,7 +59,7 @@
             // 
             this.btnUsuarios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnUsuarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUsuarios.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnUsuarios.ForeColor = System.Drawing.Color.Black;
             this.btnUsuarios.Location = new System.Drawing.Point(120, 69);
             this.btnUsuarios.Name = "btnUsuarios";
             this.btnUsuarios.Size = new System.Drawing.Size(79, 44);
@@ -72,7 +72,7 @@
             // 
             this.btnLibros.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnLibros.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLibros.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnLibros.ForeColor = System.Drawing.Color.Black;
             this.btnLibros.Location = new System.Drawing.Point(205, 69);
             this.btnLibros.Name = "btnLibros";
             this.btnLibros.Size = new System.Drawing.Size(79, 44);
@@ -85,7 +85,7 @@
             // 
             this.btnEliminarU.BackColor = System.Drawing.Color.Red;
             this.btnEliminarU.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminarU.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnEliminarU.ForeColor = System.Drawing.Color.Black;
             this.btnEliminarU.Location = new System.Drawing.Point(375, 69);
             this.btnEliminarU.Name = "btnEliminarU";
             this.btnEliminarU.Size = new System.Drawing.Size(79, 44);
@@ -123,7 +123,7 @@
             // 
             this.btnEliminaeL.BackColor = System.Drawing.Color.Red;
             this.btnEliminaeL.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminaeL.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnEliminaeL.ForeColor = System.Drawing.Color.Black;
             this.btnEliminaeL.Location = new System.Drawing.Point(460, 69);
             this.btnEliminaeL.Name = "btnEliminaeL";
             this.btnEliminaeL.Size = new System.Drawing.Size(79, 44);
@@ -136,7 +136,7 @@
             // 
             this.btnPrestamos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnPrestamos.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPrestamos.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnPrestamos.ForeColor = System.Drawing.Color.Black;
             this.btnPrestamos.Location = new System.Drawing.Point(290, 69);
             this.btnPrestamos.Name = "btnPrestamos";
             this.btnPrestamos.Size = new System.Drawing.Size(79, 44);
@@ -149,7 +149,7 @@
             // 
             this.btnAgregarLibro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnAgregarLibro.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregarLibro.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnAgregarLibro.ForeColor = System.Drawing.Color.Black;
             this.btnAgregarLibro.Location = new System.Drawing.Point(35, 69);
             this.btnAgregarLibro.Name = "btnAgregarLibro";
             this.btnAgregarLibro.Size = new System.Drawing.Size(79, 44);
@@ -161,6 +161,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(630, 77);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(150, 26);
@@ -171,7 +172,7 @@
             // 
             this.btnEliminarP.BackColor = System.Drawing.Color.Red;
             this.btnEliminarP.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminarP.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnEliminarP.ForeColor = System.Drawing.Color.Black;
             this.btnEliminarP.Location = new System.Drawing.Point(545, 69);
             this.btnEliminarP.Name = "btnEliminarP";
             this.btnEliminarP.Size = new System.Drawing.Size(79, 44);
@@ -184,6 +185,7 @@
             // 
             this.lbl_TipoTabla.AutoSize = true;
             this.lbl_TipoTabla.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_TipoTabla.ForeColor = System.Drawing.Color.Black;
             this.lbl_TipoTabla.Location = new System.Drawing.Point(36, 139);
             this.lbl_TipoTabla.Name = "lbl_TipoTabla";
             this.lbl_TipoTabla.Size = new System.Drawing.Size(68, 24);

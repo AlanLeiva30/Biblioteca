@@ -46,6 +46,7 @@
             this.lblTitulo.AutoSize = true;
             this.lblTitulo.BackColor = System.Drawing.Color.Transparent;
             this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo.ForeColor = System.Drawing.Color.Black;
             this.lblTitulo.Location = new System.Drawing.Point(174, 193);
             this.lblTitulo.Name = "lblTitulo";
             this.lblTitulo.Size = new System.Drawing.Size(109, 20);
@@ -57,6 +58,7 @@
             this.lblDevolusion.AutoSize = true;
             this.lblDevolusion.BackColor = System.Drawing.Color.Transparent;
             this.lblDevolusion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDevolusion.ForeColor = System.Drawing.Color.Black;
             this.lblDevolusion.Location = new System.Drawing.Point(174, 308);
             this.lblDevolusion.Name = "lblDevolusion";
             this.lblDevolusion.Size = new System.Drawing.Size(159, 20);
@@ -81,6 +83,7 @@
             this.lblID.AutoSize = true;
             this.lblID.BackColor = System.Drawing.Color.Transparent;
             this.lblID.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblID.ForeColor = System.Drawing.Color.Black;
             this.lblID.Location = new System.Drawing.Point(174, 149);
             this.lblID.Name = "lblID";
             this.lblID.Size = new System.Drawing.Size(68, 20);
@@ -100,6 +103,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(174, 250);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(151, 20);
@@ -131,6 +135,7 @@
             this.lbl_UsuarioPrestamo.AutoSize = true;
             this.lbl_UsuarioPrestamo.BackColor = System.Drawing.Color.White;
             this.lbl_UsuarioPrestamo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_UsuarioPrestamo.ForeColor = System.Drawing.Color.Black;
             this.lbl_UsuarioPrestamo.Location = new System.Drawing.Point(355, 145);
             this.lbl_UsuarioPrestamo.Name = "lbl_UsuarioPrestamo";
             this.lbl_UsuarioPrestamo.Size = new System.Drawing.Size(168, 24);

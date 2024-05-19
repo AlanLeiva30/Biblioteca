@@ -44,7 +44,7 @@
             // 
             this.btnUsuario.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUsuario.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnUsuario.ForeColor = System.Drawing.Color.Black;
             this.btnUsuario.Location = new System.Drawing.Point(0, 127);
             this.btnUsuario.Name = "btnUsuario";
             this.btnUsuario.Size = new System.Drawing.Size(301, 67);
@@ -57,7 +57,7 @@
             // 
             this.btnAdministrador.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnAdministrador.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdministrador.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnAdministrador.ForeColor = System.Drawing.Color.Black;
             this.btnAdministrador.Location = new System.Drawing.Point(0, 273);
             this.btnAdministrador.Name = "btnAdministrador";
             this.btnAdministrador.Size = new System.Drawing.Size(301, 68);

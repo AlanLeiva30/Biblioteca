@@ -46,7 +46,7 @@
             // 
             this.btnPrestar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnPrestar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPrestar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnPrestar.ForeColor = System.Drawing.Color.White;
             this.btnPrestar.Location = new System.Drawing.Point(719, 614);
             this.btnPrestar.Name = "btnPrestar";
             this.btnPrestar.Size = new System.Drawing.Size(155, 55);
@@ -79,6 +79,7 @@
             // 
             this.lbl_IdUsuario.AutoSize = true;
             this.lbl_IdUsuario.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_IdUsuario.ForeColor = System.Drawing.Color.Black;
             this.lbl_IdUsuario.Location = new System.Drawing.Point(861, 161);
             this.lbl_IdUsuario.Name = "lbl_IdUsuario";
             this.lbl_IdUsuario.Size = new System.Drawing.Size(13, 13);
@@ -90,6 +91,7 @@
             // 
             this.lbl_IdDeUsuario.AutoSize = true;
             this.lbl_IdDeUsuario.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_IdDeUsuario.ForeColor = System.Drawing.Color.Black;
             this.lbl_IdDeUsuario.Location = new System.Drawing.Point(784, 161);
             this.lbl_IdDeUsuario.Name = "lbl_IdDeUsuario";
             this.lbl_IdDeUsuario.Size = new System.Drawing.Size(71, 13);
@@ -102,7 +104,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(75, 41);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(257, 31);
@@ -114,6 +116,7 @@
             this.lbl_SeleccioneLibro.AutoSize = true;
             this.lbl_SeleccioneLibro.BackColor = System.Drawing.Color.Transparent;
             this.lbl_SeleccioneLibro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_SeleccioneLibro.ForeColor = System.Drawing.Color.Black;
             this.lbl_SeleccioneLibro.Location = new System.Drawing.Point(77, 121);
             this.lbl_SeleccioneLibro.Name = "lbl_SeleccioneLibro";
             this.lbl_SeleccioneLibro.Size = new System.Drawing.Size(231, 16);
@@ -126,6 +129,7 @@
             this.lbl_IdLibro.AutoSize = true;
             this.lbl_IdLibro.BackColor = System.Drawing.Color.Transparent;
             this.lbl_IdLibro.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_IdLibro.ForeColor = System.Drawing.Color.Black;
             this.lbl_IdLibro.Location = new System.Drawing.Point(688, 586);
             this.lbl_IdLibro.Name = "lbl_IdLibro";
             this.lbl_IdLibro.Size = new System.Drawing.Size(73, 20);
@@ -138,6 +142,7 @@
             this.lbl_Libro_seleccionado.AutoSize = true;
             this.lbl_Libro_seleccionado.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Libro_seleccionado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Libro_seleccionado.ForeColor = System.Drawing.Color.Black;
             this.lbl_Libro_seleccionado.Location = new System.Drawing.Point(525, 586);
             this.lbl_Libro_seleccionado.Name = "lbl_Libro_seleccionado";
             this.lbl_Libro_seleccionado.Size = new System.Drawing.Size(157, 20);
@@ -150,6 +155,7 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.Black;
             this.label5.Location = new System.Drawing.Point(76, 97);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(252, 24);
@@ -160,7 +166,7 @@
             // 
             this.btnAtras.BackColor = System.Drawing.Color.Red;
             this.btnAtras.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAtras.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnAtras.ForeColor = System.Drawing.Color.White;
             this.btnAtras.Location = new System.Drawing.Point(80, 600);
             this.btnAtras.Name = "btnAtras";
             this.btnAtras.Size = new System.Drawing.Size(155, 55);
@@ -173,7 +179,7 @@
             // 
             this.btnPrestamos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnPrestamos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPrestamos.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnPrestamos.ForeColor = System.Drawing.Color.White;
             this.btnPrestamos.Location = new System.Drawing.Point(719, 177);
             this.btnPrestamos.Name = "btnPrestamos";
             this.btnPrestamos.Size = new System.Drawing.Size(155, 55);
