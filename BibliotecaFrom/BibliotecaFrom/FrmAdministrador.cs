@@ -26,8 +26,6 @@ namespace BibliotecaFrom
             string usuario = txtUsuario.Text;
             string contraseña = txtContraseña.Text;
 
-            _formularioPrincipal.abrirAdministrarBiblioteca();
-            return;
             // Usa la cadena de conexión desde la clase Configuracion
             string cadenaConexion = Configuracion.CadenaConexion;
             // Consulta SQL

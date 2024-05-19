@@ -28,7 +28,6 @@ namespace BibliotecaFrom
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
-            _formularioPrincipal.abrirFormularioLibros(1);
             string consulta = "SELECT ID_Usuario FROM Usuario WHERE usuario = @usuario AND Contraseña = @contraseña";
 
             using (SqlConnection conexion = new SqlConnection(cadenaConexion))
