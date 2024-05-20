@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
 namespace BibliotecaFrom
 {
     public partial class FrmLibros : Form
@@ -18,19 +19,16 @@ namespace BibliotecaFrom
         string cadenaConexion = Configuracion.CadenaConexion;
 
         private readonly FrmMenuPrincipal _formularioPrincipal;
-        public FrmLibros(int id, FrmMenuPrincipal principal)
-        {
-            Inicializar(id);
-            ConfigurarElementos();
-            CargarDatos();
-            _formularioPrincipal = principal;
-        }
 
-        private void Inicializar(int id)
+        public FrmLibros(int id, FrmMenuPrincipal principal)
         {
             InitializeComponent();
             id_usuario = id;
             lbl_IdUsuario.Text = id_usuario.ToString();
+            _formularioPrincipal = principal;
+
+            ConfigurarElementos();
+            CargarDatos();
         }
 
         private void ConfigurarElementos()
@@ -51,7 +49,35 @@ namespace BibliotecaFrom
         {
             using (SqlConnection conexion = new SqlConnection(cadenaConexion))
             {
-                //EjecutarProcedimientoAlmacenado(conexion, "MostrarLibros", dgvMostrar);
+                EjecutarProcedimientoAlmacenado(conexion, "MostrarLibros", dgvMostrar);
+
+                
+                if (dgvMostrar.Columns.Contains("id_libro"))
+                {
+                    dgvMostrar.Columns["id_libro"].HeaderText = "ID";
+                    dgvMostrar.Columns["id_libro"].Visible = false;
+                }
+                if (dgvMostrar.Columns.Contains("tituloLibro"))
+                {
+                    dgvMostrar.Columns["tituloLibro"].HeaderText = "Título";
+                    dgvMostrar.Columns["tituloLibro"].Width = 200; 
+                }
+                if (dgvMostrar.Columns.Contains("autor"))
+                {
+                    dgvMostrar.Columns["autor"].HeaderText = "Autor";
+                    dgvMostrar.Columns["autor"].Width = 150;
+                }
+                if (dgvMostrar.Columns.Contains("año_publicacion"))
+                {
+                    dgvMostrar.Columns["año_publicacion"].HeaderText = "Año";
+                    dgvMostrar.Columns["año_publicacion"].Width = 55; 
+                }
+                if (dgvMostrar.Columns.Contains("contenido"))
+                {
+                    dgvMostrar.Columns["contenido"].HeaderText = "Descripción";
+                    dgvMostrar.Columns["contenido"].Width = 390;
+                }
+                
             }
         }
 
@@ -105,7 +131,6 @@ namespace BibliotecaFrom
             if (e.RowIndex >= 0 && e.RowIndex < dgvMostrar.Rows.Count)
             {
                 filaSeleccionada = dgvMostrar.Rows[e.RowIndex];
-                // Obtener el valor de la columna "id_libro"
                 id_libro = Convert.ToInt32(filaSeleccionada.Cells["id_libro"].Value);
                 lbl_IdLibro.Text = id_libro.ToString();
             }

@@ -71,3 +71,22 @@ C:\Users\firearcher17\Documents\Biblioteca\BibliotecaFrom\BibliotecaFrom\obj\Deb
 C:\Users\firearcher17\Documents\Biblioteca\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.csproj.CoreCompileInputs.cache
 C:\Users\firearcher17\Documents\Biblioteca\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.exe
 C:\Users\firearcher17\Documents\Biblioteca\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.pdb
+D:\Users\Alan Leiva\Escritorio\Biblioteca-accessibility-implemente-main-container-and-sidebar\BibliotecaFrom\BibliotecaFrom\bin\Debug\BibliotecaFrom.exe.config
+D:\Users\Alan Leiva\Escritorio\Biblioteca-accessibility-implemente-main-container-and-sidebar\BibliotecaFrom\BibliotecaFrom\bin\Debug\BibliotecaFrom.exe
+D:\Users\Alan Leiva\Escritorio\Biblioteca-accessibility-implemente-main-container-and-sidebar\BibliotecaFrom\BibliotecaFrom\bin\Debug\BibliotecaFrom.pdb
+D:\Users\Alan Leiva\Escritorio\Biblioteca-accessibility-implemente-main-container-and-sidebar\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.csproj.AssemblyReference.cache
+D:\Users\Alan Leiva\Escritorio\Biblioteca-accessibility-implemente-main-container-and-sidebar\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmAdministrador.resources
+D:\Users\Alan Leiva\Escritorio\Biblioteca-accessibility-implemente-main-container-and-sidebar\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmAdministrarBiblioteca.resources
+D:\Users\Alan Leiva\Escritorio\Biblioteca-accessibility-implemente-main-container-and-sidebar\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmAgregarLibro.resources
+D:\Users\Alan Leiva\Escritorio\Biblioteca-accessibility-implemente-main-container-and-sidebar\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmInicio.resources
+D:\Users\Alan Leiva\Escritorio\Biblioteca-accessibility-implemente-main-container-and-sidebar\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmLibros.resources
+D:\Users\Alan Leiva\Escritorio\Biblioteca-accessibility-implemente-main-container-and-sidebar\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmMenuPrincipal.resources
+D:\Users\Alan Leiva\Escritorio\Biblioteca-accessibility-implemente-main-container-and-sidebar\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmPrestar.resources
+D:\Users\Alan Leiva\Escritorio\Biblioteca-accessibility-implemente-main-container-and-sidebar\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmRegistrarse.resources
+D:\Users\Alan Leiva\Escritorio\Biblioteca-accessibility-implemente-main-container-and-sidebar\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmUsuario.resources
+D:\Users\Alan Leiva\Escritorio\Biblioteca-accessibility-implemente-main-container-and-sidebar\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmVerprestamos.resources
+D:\Users\Alan Leiva\Escritorio\Biblioteca-accessibility-implemente-main-container-and-sidebar\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.Properties.Resources.resources
+D:\Users\Alan Leiva\Escritorio\Biblioteca-accessibility-implemente-main-container-and-sidebar\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.csproj.GenerateResource.cache
+D:\Users\Alan Leiva\Escritorio\Biblioteca-accessibility-implemente-main-container-and-sidebar\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.csproj.CoreCompileInputs.cache
+D:\Users\Alan Leiva\Escritorio\Biblioteca-accessibility-implemente-main-container-and-sidebar\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.exe
+D:\Users\Alan Leiva\Escritorio\Biblioteca-accessibility-implemente-main-container-and-sidebar\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.pdb

@@ -72,19 +72,21 @@
             // 
             // txtUsuario
             // 
+            this.txtUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUsuario.ForeColor = System.Drawing.Color.Black;
-            this.txtUsuario.Location = new System.Drawing.Point(228, 151);
+            this.txtUsuario.Location = new System.Drawing.Point(228, 143);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(181, 20);
+            this.txtUsuario.Size = new System.Drawing.Size(181, 35);
             this.txtUsuario.TabIndex = 2;
             this.txtUsuario.TextChanged += new System.EventHandler(this.txtUsuario_TextChanged);
             // 
             // txtContraseña
             // 
+            this.txtContraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtContraseña.ForeColor = System.Drawing.Color.Black;
-            this.txtContraseña.Location = new System.Drawing.Point(228, 235);
+            this.txtContraseña.Location = new System.Drawing.Point(228, 224);
             this.txtContraseña.Name = "txtContraseña";
-            this.txtContraseña.Size = new System.Drawing.Size(181, 20);
+            this.txtContraseña.Size = new System.Drawing.Size(181, 35);
             this.txtContraseña.TabIndex = 3;
             this.txtContraseña.TextChanged += new System.EventHandler(this.txtContraseña_TextChanged);
             // 

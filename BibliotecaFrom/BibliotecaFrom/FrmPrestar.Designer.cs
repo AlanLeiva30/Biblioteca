@@ -39,6 +39,8 @@
             this.lbl_UsuarioPrestamo = new System.Windows.Forms.Label();
             this.btnAtras = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblTitulo
@@ -47,7 +49,7 @@
             this.lblTitulo.BackColor = System.Drawing.Color.Transparent;
             this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitulo.ForeColor = System.Drawing.Color.Black;
-            this.lblTitulo.Location = new System.Drawing.Point(174, 193);
+            this.lblTitulo.Location = new System.Drawing.Point(39, 86);
             this.lblTitulo.Name = "lblTitulo";
             this.lblTitulo.Size = new System.Drawing.Size(109, 20);
             this.lblTitulo.TabIndex = 0;
@@ -59,7 +61,7 @@
             this.lblDevolusion.BackColor = System.Drawing.Color.Transparent;
             this.lblDevolusion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDevolusion.ForeColor = System.Drawing.Color.Black;
-            this.lblDevolusion.Location = new System.Drawing.Point(174, 308);
+            this.lblDevolusion.Location = new System.Drawing.Point(39, 209);
             this.lblDevolusion.Name = "lblDevolusion";
             this.lblDevolusion.Size = new System.Drawing.Size(159, 20);
             this.lblDevolusion.TabIndex = 1;
@@ -70,7 +72,7 @@
             this.btnPrestar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.btnPrestar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPrestar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnPrestar.Location = new System.Drawing.Point(360, 448);
+            this.btnPrestar.Location = new System.Drawing.Point(564, 448);
             this.btnPrestar.Name = "btnPrestar";
             this.btnPrestar.Size = new System.Drawing.Size(155, 55);
             this.btnPrestar.TabIndex = 2;
@@ -84,7 +86,7 @@
             this.lblID.BackColor = System.Drawing.Color.Transparent;
             this.lblID.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblID.ForeColor = System.Drawing.Color.Black;
-            this.lblID.Location = new System.Drawing.Point(174, 149);
+            this.lblID.Location = new System.Drawing.Point(39, 29);
             this.lblID.Name = "lblID";
             this.lblID.Size = new System.Drawing.Size(68, 20);
             this.lblID.TabIndex = 5;
@@ -93,7 +95,7 @@
             // dtpDevolusion
             // 
             this.dtpDevolusion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpDevolusion.Location = new System.Drawing.Point(359, 302);
+            this.dtpDevolusion.Location = new System.Drawing.Point(266, 156);
             this.dtpDevolusion.Name = "dtpDevolusion";
             this.dtpDevolusion.Size = new System.Drawing.Size(318, 26);
             this.dtpDevolusion.TabIndex = 7;
@@ -104,7 +106,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(174, 250);
+            this.label1.Location = new System.Drawing.Point(39, 156);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(151, 20);
             this.label1.TabIndex = 8;
@@ -113,7 +115,7 @@
             // dtpPrestamo
             // 
             this.dtpPrestamo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpPrestamo.Location = new System.Drawing.Point(359, 244);
+            this.dtpPrestamo.Location = new System.Drawing.Point(266, 209);
             this.dtpPrestamo.Name = "dtpPrestamo";
             this.dtpPrestamo.Size = new System.Drawing.Size(318, 26);
             this.dtpPrestamo.TabIndex = 9;
@@ -121,10 +123,10 @@
             // lbl_TituloLibro
             // 
             this.lbl_TituloLibro.AutoSize = true;
-            this.lbl_TituloLibro.BackColor = System.Drawing.Color.White;
+            this.lbl_TituloLibro.BackColor = System.Drawing.Color.Transparent;
             this.lbl_TituloLibro.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_TituloLibro.ForeColor = System.Drawing.Color.Black;
-            this.lbl_TituloLibro.Location = new System.Drawing.Point(381, 193);
+            this.lbl_TituloLibro.Location = new System.Drawing.Point(262, 86);
             this.lbl_TituloLibro.Name = "lbl_TituloLibro";
             this.lbl_TituloLibro.Size = new System.Drawing.Size(109, 24);
             this.lbl_TituloLibro.TabIndex = 10;
@@ -133,10 +135,10 @@
             // lbl_UsuarioPrestamo
             // 
             this.lbl_UsuarioPrestamo.AutoSize = true;
-            this.lbl_UsuarioPrestamo.BackColor = System.Drawing.Color.White;
+            this.lbl_UsuarioPrestamo.BackColor = System.Drawing.Color.Transparent;
             this.lbl_UsuarioPrestamo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_UsuarioPrestamo.ForeColor = System.Drawing.Color.Black;
-            this.lbl_UsuarioPrestamo.Location = new System.Drawing.Point(355, 145);
+            this.lbl_UsuarioPrestamo.Location = new System.Drawing.Point(262, 25);
             this.lbl_UsuarioPrestamo.Name = "lbl_UsuarioPrestamo";
             this.lbl_UsuarioPrestamo.Size = new System.Drawing.Size(168, 24);
             this.lbl_UsuarioPrestamo.TabIndex = 11;
@@ -147,7 +149,7 @@
             this.btnAtras.BackColor = System.Drawing.Color.Red;
             this.btnAtras.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAtras.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnAtras.Location = new System.Drawing.Point(360, 509);
+            this.btnAtras.Location = new System.Drawing.Point(210, 448);
             this.btnAtras.Name = "btnAtras";
             this.btnAtras.Size = new System.Drawing.Size(155, 55);
             this.btnAtras.TabIndex = 14;
@@ -161,11 +163,28 @@
             this.label2.BackColor = System.Drawing.Color.White;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(342, 41);
+            this.label2.Location = new System.Drawing.Point(334, 39);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(251, 31);
             this.label2.TabIndex = 15;
             this.label2.Text = "Realizar prestamo";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.groupBox1.Controls.Add(this.lblDevolusion);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.lblTitulo);
+            this.groupBox1.Controls.Add(this.lbl_UsuarioPrestamo);
+            this.groupBox1.Controls.Add(this.lblID);
+            this.groupBox1.Controls.Add(this.lbl_TituloLibro);
+            this.groupBox1.Controls.Add(this.dtpPrestamo);
+            this.groupBox1.Controls.Add(this.dtpDevolusion);
+            this.groupBox1.Location = new System.Drawing.Point(82, 124);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(742, 318);
+            this.groupBox1.TabIndex = 16;
+            this.groupBox1.TabStop = false;
             // 
             // FrmPrestar
             // 
@@ -174,20 +193,15 @@
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.BackgroundImage = global::BibliotecaFrom.Properties.Resources.libreria;
             this.ClientSize = new System.Drawing.Size(947, 642);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnAtras);
-            this.Controls.Add(this.lbl_UsuarioPrestamo);
-            this.Controls.Add(this.lbl_TituloLibro);
-            this.Controls.Add(this.dtpPrestamo);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.dtpDevolusion);
-            this.Controls.Add(this.lblID);
             this.Controls.Add(this.btnPrestar);
-            this.Controls.Add(this.lblDevolusion);
-            this.Controls.Add(this.lblTitulo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmPrestar";
             this.Text = "Prestar libro";
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -206,5 +220,6 @@
         private System.Windows.Forms.Label lbl_UsuarioPrestamo;
         private System.Windows.Forms.Button btnAtras;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }

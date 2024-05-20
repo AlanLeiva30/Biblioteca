@@ -67,13 +67,13 @@ namespace BibliotecaFrom
 
         private void btnRegistrarse_Click(object sender, EventArgs e)
         {
-            FrmRegistrarse registro = new FrmRegistrarse(_formularioPrincipal);
-            registro.Show();
+            // Mostrar formulario de registro
+            _formularioPrincipal.abrirRegistro();
         }
 
         private void btnAtras_Click(object sender, EventArgs e)
         {
-            Close();
+            _formularioPrincipal.volverInicio();
         }
 
         private void txtContraseña_TextChanged(object sender, EventArgs e)
