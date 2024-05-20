@@ -1,10 +1,10 @@
 --Creando los procedimientos almacenados para la base de datos BibliotecaForm
 --Procedimiento almacenado para agregar libros
 CREATE PROCEDURE AgregarLibro
-    -- Parámetros para el procedimiento
+    -- ParÃ¡metros para el procedimiento
     @tituloLibro VARCHAR(100), 
     @autor VARCHAR(50), 
-    @año_publicacion VARCHAR(10),
+    @aÃ±o_publicacion VARCHAR(10),
     @contenido VARCHAR(300)
 AS
 BEGIN
@@ -13,9 +13,9 @@ BEGIN
     SET NOCOUNT ON;
     -- Insertar los valores en la tabla
     INSERT INTO Libro 
-        (tituloLibro, autor, año_publicacion, contenido) 
+        (tituloLibro, autor, aÃ±o_publicacion, contenido) 
     VALUES 
-        (@tituloLibro, @autor, @año_publicacion, @contenido)
+        (@tituloLibro, @autor, @aÃ±o_publicacion, @contenido)
 END
 GO
 --Procedimiento almacenado para eliminar libros
@@ -90,14 +90,14 @@ CREATE PROCEDURE RegistrarUsuario
     @telefono NVARCHAR(20),
     @correo NVARCHAR(50),
     @usuario NVARCHAR(50),
-    @contraseña NVARCHAR(50),
+    @contraseÃ±a NVARCHAR(50),
     @administrador INT
 AS
 BEGIN
     SET NOCOUNT ON;
 
-    INSERT INTO Usuario (nombreCompleto, direccion, telefono, Correo, usuario, Contraseña, Administrador) 
-    VALUES (@nombreCompleto, @direccion, @telefono, @correo, @usuario, @contraseña, @administrador);
+    INSERT INTO Usuario (nombreCompleto, direccion, telefono, Correo, usuario, ContraseÃ±a, Administrador) 
+    VALUES (@nombreCompleto, @direccion, @telefono, @correo, @usuario, @contraseÃ±a, @administrador);
 END
 GO
 --Procedimiento almacenado para Registrar Prestamo
@@ -127,4 +127,6 @@ BEGIN
     CROSS JOIN Usuario U 
     WHERE L.id_libro = @ID_Libro AND U.ID_Usuario = @ID_Usuario;
 END
+
+
 
