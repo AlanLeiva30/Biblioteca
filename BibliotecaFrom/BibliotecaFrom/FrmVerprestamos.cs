@@ -49,15 +49,15 @@ namespace BibliotecaFrom
 
                     dgvVer.DataSource = dataTable;
 
-                    dgvVer.Columns[0].Width = 30;
+                    dgvVer.Columns[0].Width = 120;
                     dgvVer.Columns[0].HeaderText = "ID";
                     dgvVer.Columns[1].HeaderText = "Descripción";
-                    dgvVer.Columns[1].Width = 110;
+                    dgvVer.Columns[1].Width = 180;
                     dgvVer.Columns[2].HeaderText = "Libro";
                     dgvVer.Columns[3].HeaderText = "Préstamo";
-                    dgvVer.Columns[3].Width = 80;
+                    dgvVer.Columns[3].Width = 180;
                     dgvVer.Columns[4].HeaderText = "Devolución";
-                    dgvVer.Columns[4].Width = 80;
+                    dgvVer.Columns[4].Width = 180;
                 }
                 catch (Exception ex)
                 {
