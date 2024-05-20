@@ -19,16 +19,17 @@ namespace BibliotecaFrom
         private string tablaActual;
         // Usa la cadena de conexión desde la clase Configuracion
         string cadenaConexion = Configuracion.CadenaConexion;
-
-        public FrmAdministrarBiblioteca()
+        private readonly FrmMenuPrincipal _formularioPrincipal;
+        public FrmAdministrarBiblioteca(FrmMenuPrincipal formularioPrincipal)
         {
             InitializeComponent();
+            _formularioPrincipal = formularioPrincipal;
         }
 
         // Evento para el botón de retroceso
         private void btnAtras_Click(object sender, EventArgs e)
         {
-            Close();
+            _formularioPrincipal.volverInicio();
         }
 
         // Evento para el botón de Usuarios

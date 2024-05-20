@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static BibliotecaFrom.FrmMenuPrincipal;
 
 namespace BibliotecaFrom
 {
@@ -16,10 +17,13 @@ namespace BibliotecaFrom
         private SqlConnection conexion;
         private string cadenaConexion = Configuracion.CadenaConexion;
 
-        public FrmUsuario()
+        private readonly FrmMenuPrincipal _formularioPrincipal;
+        public FrmUsuario(FrmMenuPrincipal formularioPrincipal)
         {
             InitializeComponent();
             conexion = new SqlConnection(cadenaConexion);
+            // Se obtiene la instalacia del formulario principal
+            _formularioPrincipal = formularioPrincipal;
         }
 
         private void btnIngresar_Click(object sender, EventArgs e)
@@ -43,9 +47,9 @@ namespace BibliotecaFrom
                     if (resultado != null)
                     {
                         int idUsuario = (int)resultado;
-                        FrmLibros libros = new FrmLibros(idUsuario);
-                        libros.Show();
-                        Hide();
+                        // Se ejecuta la función para el cambio de formulario
+                        _formularioPrincipal.abrirFormularioLibros(idUsuario);
+
                     }
                     else
                     {
@@ -57,11 +61,13 @@ namespace BibliotecaFrom
                     MessageBox.Show("Error: " + ex.Message, "Error de conexión");
                 }
             }
+            //int idUsuario = (int)resultado;
+            // Obtiene una instancia para acceder a los delegados
         }
 
         private void btnRegistrarse_Click(object sender, EventArgs e)
         {
-            FrmRegistrarse registro = new FrmRegistrarse();
+            FrmRegistrarse registro = new FrmRegistrarse(_formularioPrincipal);
             registro.Show();
         }
 
@@ -73,6 +79,21 @@ namespace BibliotecaFrom
         private void txtContraseña_TextChanged(object sender, EventArgs e)
         {
             txtContraseña.UseSystemPasswordChar = true;
+        }
+
+        private void lblContraseña_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtUsuario_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

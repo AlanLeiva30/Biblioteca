@@ -13,9 +13,12 @@ namespace BibliotecaFrom
 {
     public partial class FrmRegistrarse : Form
     {
-        public FrmRegistrarse()
+
+        private readonly FrmMenuPrincipal _formularioPrincipal;
+        public FrmRegistrarse(FrmMenuPrincipal formularioPrincipal)
         {
             InitializeComponent();
+            _formularioPrincipal = formularioPrincipal;
         }
 
         private void btnRegistrar_Click(object sender, EventArgs e)
@@ -121,7 +124,7 @@ namespace BibliotecaFrom
 
         private void btnAtras_Click(object sender, EventArgs e)
         {
-            Close();
+            _formularioPrincipal.volverInicio();
         }
     }
 }

@@ -45,36 +45,40 @@
             // lblAutor
             // 
             this.lblAutor.AutoSize = true;
-            this.lblAutor.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutor.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutor.ForeColor = System.Drawing.Color.Black;
             this.lblAutor.Location = new System.Drawing.Point(15, 73);
             this.lblAutor.Name = "lblAutor";
-            this.lblAutor.Size = new System.Drawing.Size(39, 12);
+            this.lblAutor.Size = new System.Drawing.Size(35, 13);
             this.lblAutor.TabIndex = 26;
             this.lblAutor.Text = "Autor:";
             // 
             // lblTitulo
             // 
             this.lblTitulo.AutoSize = true;
-            this.lblTitulo.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo.ForeColor = System.Drawing.Color.Black;
             this.lblTitulo.Location = new System.Drawing.Point(15, 37);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(39, 12);
+            this.lblTitulo.Size = new System.Drawing.Size(36, 13);
             this.lblTitulo.TabIndex = 27;
             this.lblTitulo.Text = "Titulo:";
             // 
             // lblAño
             // 
             this.lblAño.AutoSize = true;
-            this.lblAño.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAño.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAño.ForeColor = System.Drawing.Color.Black;
             this.lblAño.Location = new System.Drawing.Point(15, 104);
             this.lblAño.Name = "lblAño";
-            this.lblAño.Size = new System.Drawing.Size(118, 12);
+            this.lblAño.Size = new System.Drawing.Size(104, 13);
             this.lblAño.TabIndex = 28;
             this.lblAño.Text = "Año de publicacion :";
             // 
             // txtTitulo
             // 
-            this.txtTitulo.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTitulo.ForeColor = System.Drawing.Color.Black;
             this.txtTitulo.Location = new System.Drawing.Point(60, 29);
             this.txtTitulo.Name = "txtTitulo";
             this.txtTitulo.Size = new System.Drawing.Size(297, 20);
@@ -83,16 +87,18 @@
             // lblContenido
             // 
             this.lblContenido.AutoSize = true;
-            this.lblContenido.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblContenido.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblContenido.ForeColor = System.Drawing.Color.Black;
             this.lblContenido.Location = new System.Drawing.Point(15, 140);
             this.lblContenido.Name = "lblContenido";
-            this.lblContenido.Size = new System.Drawing.Size(65, 12);
+            this.lblContenido.Size = new System.Drawing.Size(58, 13);
             this.lblContenido.TabIndex = 29;
             this.lblContenido.Text = "Contenido:";
             // 
             // txtContenido
             // 
-            this.txtContenido.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtContenido.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtContenido.ForeColor = System.Drawing.Color.Black;
             this.txtContenido.Location = new System.Drawing.Point(82, 132);
             this.txtContenido.Name = "txtContenido";
             this.txtContenido.Size = new System.Drawing.Size(275, 20);
@@ -100,7 +106,8 @@
             // 
             // txtAño
             // 
-            this.txtAño.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAño.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAño.ForeColor = System.Drawing.Color.Black;
             this.txtAño.Location = new System.Drawing.Point(139, 96);
             this.txtAño.Name = "txtAño";
             this.txtAño.Size = new System.Drawing.Size(218, 20);
@@ -108,7 +115,8 @@
             // 
             // txtAutor
             // 
-            this.txtAutor.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAutor.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAutor.ForeColor = System.Drawing.Color.Black;
             this.txtAutor.Location = new System.Drawing.Point(60, 65);
             this.txtAutor.Name = "txtAutor";
             this.txtAutor.Size = new System.Drawing.Size(297, 20);
@@ -117,8 +125,8 @@
             // btnAgregar
             // 
             this.btnAgregar.BackColor = System.Drawing.Color.Red;
-            this.btnAgregar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregar.ForeColor = System.Drawing.Color.Black;
             this.btnAgregar.Location = new System.Drawing.Point(159, 190);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(75, 23);
@@ -138,6 +146,7 @@
             this.gpbLibro.Controls.Add(this.lblAño);
             this.gpbLibro.Controls.Add(this.lblTitulo);
             this.gpbLibro.Controls.Add(this.lblAutor);
+            this.gpbLibro.ForeColor = System.Drawing.Color.Black;
             this.gpbLibro.Location = new System.Drawing.Point(156, 68);
             this.gpbLibro.Name = "gpbLibro";
             this.gpbLibro.Size = new System.Drawing.Size(387, 231);
@@ -148,8 +157,8 @@
             // btnAtras
             // 
             this.btnAtras.BackColor = System.Drawing.Color.Red;
-            this.btnAtras.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAtras.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnAtras.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAtras.ForeColor = System.Drawing.Color.Black;
             this.btnAtras.Location = new System.Drawing.Point(-1, 340);
             this.btnAtras.Name = "btnAtras";
             this.btnAtras.Size = new System.Drawing.Size(75, 23);

@@ -52,3 +52,22 @@ D:\Users\Alan Leiva\Escritorio\BibliotecaFrom\BibliotecaFrom\obj\Debug\Bibliotec
 D:\Users\Alan Leiva\Escritorio\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.csproj.CoreCompileInputs.cache
 D:\Users\Alan Leiva\Escritorio\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.exe
 D:\Users\Alan Leiva\Escritorio\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.pdb
+C:\Users\firearcher17\Documents\Biblioteca\BibliotecaFrom\BibliotecaFrom\bin\Debug\BibliotecaFrom.exe.config
+C:\Users\firearcher17\Documents\Biblioteca\BibliotecaFrom\BibliotecaFrom\bin\Debug\BibliotecaFrom.exe
+C:\Users\firearcher17\Documents\Biblioteca\BibliotecaFrom\BibliotecaFrom\bin\Debug\BibliotecaFrom.pdb
+C:\Users\firearcher17\Documents\Biblioteca\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.csproj.AssemblyReference.cache
+C:\Users\firearcher17\Documents\Biblioteca\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmAdministrador.resources
+C:\Users\firearcher17\Documents\Biblioteca\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmAdministrarBiblioteca.resources
+C:\Users\firearcher17\Documents\Biblioteca\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmAgregarLibro.resources
+C:\Users\firearcher17\Documents\Biblioteca\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmInicio.resources
+C:\Users\firearcher17\Documents\Biblioteca\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmLibros.resources
+C:\Users\firearcher17\Documents\Biblioteca\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmMenuPrincipal.resources
+C:\Users\firearcher17\Documents\Biblioteca\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmPrestar.resources
+C:\Users\firearcher17\Documents\Biblioteca\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmRegistrarse.resources
+C:\Users\firearcher17\Documents\Biblioteca\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmUsuario.resources
+C:\Users\firearcher17\Documents\Biblioteca\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.FrmVerprestamos.resources
+C:\Users\firearcher17\Documents\Biblioteca\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.Properties.Resources.resources
+C:\Users\firearcher17\Documents\Biblioteca\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.csproj.GenerateResource.cache
+C:\Users\firearcher17\Documents\Biblioteca\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.csproj.CoreCompileInputs.cache
+C:\Users\firearcher17\Documents\Biblioteca\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.exe
+C:\Users\firearcher17\Documents\Biblioteca\BibliotecaFrom\BibliotecaFrom\obj\Debug\BibliotecaFrom.pdb
