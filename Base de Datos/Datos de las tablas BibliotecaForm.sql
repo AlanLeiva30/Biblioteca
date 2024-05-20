@@ -1,20 +1,20 @@
 --Insertando los datos en la base de datos BibliotecaForm
-INSERT INTO Libro (tituloLibro, autor, año_publicacion, contenido)
+INSERT INTO Libro (tituloLibro, autor, aÃ±o_publicacion, contenido)
 VALUES
-    ('El Gran Gatsby',        'F. Scott Fitzgerald', '1925', 'La historia sigue a Jay Gatsby, un millonario misterioso que organiza fiestas extravagantes en su mansión de Long Island.'),
-    ('1984',                    'George Orwell', '1949', 'La novela distópica de Orwell presenta un futuro totalitario donde el gobierno controla todos los aspectos de la vida de las personas.'),
+    ('El Gran Gatsby',        'F. Scott Fitzgerald', '1925', 'La historia sigue a Jay Gatsby, un millonario misterioso que organiza fiestas extravagantes en su mansiÃ³n de Long Island.'),
+    ('1984',                    'George Orwell', '1949', 'La novela distÃ³pica de Orwell presenta un futuro totalitario donde el gobierno controla todos los aspectos de la vida de las personas.'),
     ('Don Quijote de la Mancha',    'Miguel de Cervantes', '1605', 'La obra maestra de Cervantes narra las aventuras del caballero Don Quijote y su fiel escudero Sancho Panza.'),
-    ('Cien años de soledad',     'Gabriel García Márquez', '1967', 'La saga familiar de los Buendía en el pueblo ficticio de Macondo es una exploración mágica y realista de la historia de América Latina.'),
-    ('Harry Potter y la piedra filosofal',  'J.K. Rowling', '1997', 'El primer libro de la serie de Harry Potter, que sigue las aventuras de un joven mago en la Escuela de Magia y Hechicería de Hogwarts.'),
-    ('Moby-Dick',         'Herman Melville', '1851', 'La novela épica de Melville cuenta la obsesión del capitán Ahab por cazar a la legendaria ballena blanca.'),
+    ('Cien aÃ±os de soledad',     'Gabriel GarcÃ­a MÃ¡rquez', '1967', 'La saga familiar de los BuendÃ­a en el pueblo ficticio de Macondo es una exploraciÃ³n mÃ¡gica y realista de la historia de AmÃ©rica Latina.'),
+    ('Harry Potter y la piedra filosofal',  'J.K. Rowling', '1997', 'El primer libro de la serie de Harry Potter, que sigue las aventuras de un joven mago en la Escuela de Magia y HechicerÃ­a de Hogwarts.'),
+    ('Moby-Dick',         'Herman Melville', '1851', 'La novela Ã©pica de Melville cuenta la obsesiÃ³n del capitÃ¡n Ahab por cazar a la legendaria ballena blanca.'),
     ('Orgullo y prejuicio',        'Jane Austen', '1813', 'Esta obra de Austen sigue la historia de Elizabeth Bennet mientras lidia con el amor, el matrimonio y las expectativas sociales en la Inglaterra del siglo XIX.'),
-    ('El señor de los anillos',      'J.R.R. Tolkien', '1954', 'La trilogía épica de Tolkien sigue la lucha entre el bien y el mal en la Tierra Media y la misión de un grupo de personajes para destruir un poderoso anillo.'),
-    ('Crónica de una muerte anunciada',     'Gabriel García Márquez', '1981', 'La historia relata el asesinato de Santiago Nasar y la inevitabilidad de su destino, anunciado en un pequeño pueblo caribeño.'),
-    ('El principito',        'Antoine de Saint-Exupéry', '1943', 'El clásico cuento filosófico narra las aventuras de un niño extraterrestre mientras viaja por diferentes planetas y reflexiona sobre la vida y la amistad.');
+    ('El seÃ±or de los anillos',      'J.R.R. Tolkien', '1954', 'La trilogÃ­a Ã©pica de Tolkien sigue la lucha entre el bien y el mal en la Tierra Media y la misiÃ³n de un grupo de personajes para destruir un poderoso anillo.'),
+    ('CrÃ³nica de una muerte anunciada',     'Gabriel GarcÃ­a MÃ¡rquez', '1981', 'La historia relata el asesinato de Santiago Nasar y la inevitabilidad de su destino, anunciado en un pequeÃ±o pueblo caribeÃ±o.'),
+    ('El principito',        'Antoine de Saint-ExupÃ©ry', '1943', 'El clÃ¡sico cuento filosÃ³fico narra las aventuras de un niÃ±o extraterrestre mientras viaja por diferentes planetas y reflexiona sobre la vida y la amistad.');
 
 	go
 -- Insertar datos en la tabla Usuario
-INSERT INTO Usuario (nombreCompleto, direccion, telefono, Correo, usuario, Contraseña,Administrador)
+INSERT INTO Usuario (nombreCompleto, direccion, telefono, Correo, usuario, ContraseÃ±a,Administrador)
 VALUES ('John Doe', 'Calle Principal 123', '555-1234', 'johndoe@example.com', 'admin', 'admin123',1),
 ('Jane Smith', 'Avenida Central 456', '555-5678', 'janesmith@example.com', 'janes', 'password123',0),
 ('Michael Johnson', 'Plaza Mayor 789', '555-7890', 'michaeljohnson@example.com', 'mjohnson', 'qwerty123',0),
