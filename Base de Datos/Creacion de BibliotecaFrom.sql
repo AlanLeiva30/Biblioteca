@@ -7,7 +7,7 @@ CREATE TABLE Libro (
     id_libro INT IDENTITY(1,1) PRIMARY KEY,
     tituloLibro VARCHAR(100) NOT NULL,
     autor VARCHAR(50) NOT NULL,
-    año_publicacion VARCHAR(10) NOT NULL,
+    aÃ±o_publicacion VARCHAR(10) NOT NULL,
     contenido VARCHAR(300) NOT null );
 go
 CREATE TABLE Usuario (
@@ -17,7 +17,7 @@ CREATE TABLE Usuario (
     telefono VARCHAR(20) NOT NULL,
     Correo VARCHAR(50) NOT NULL,
     usuario VARCHAR(20) NOT NULL,
-    Contraseña VARCHAR(20) NOT NULL,
+    ContraseÃ±a VARCHAR(20) NOT NULL,
 	Administrador INT NOT NULL)
 go
 CREATE TABLE Prestamo (
